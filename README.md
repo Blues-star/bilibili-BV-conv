@@ -30,7 +30,7 @@ UPD：之前的代码中，所有数位都被用到是乱凑的，实际上并�
 
 有奇有偶是因为异或 1 之后也能找到轮换表。而 ![[公式]](https://www.zhihu.com/equation?tex=90983642%2B43234085%3D2%5E%7B27%7D-1) 则使得模 58 的余数刚好变成 ![[公式]](https://www.zhihu.com/equation?tex=2%5E%7B27%7D-1) 减它。
 
-我取了 b=43234084，然后处理最低位，可以得到一个字符表，即 fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF)。
+我取了 b=43234084，然后处理最低位，可以得到一个字符表，即 fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF。
 
 对于更高位，实际上还需要知道 ![[公式]](https://www.zhihu.com/equation?tex=2%5E%7B27%7Da%5Cbmod+58%5E2%2C2%5E%7B27%7Da%5Cbmod+58%5E3%2C%5Cdots) ，这些值也可以 枚举 58 次得到，最后我得到的值是 ![[公式]](https://www.zhihu.com/equation?tex=2%5E%7B27%7Da%5Cbmod+58%5E4%3D1749968) 。
 
